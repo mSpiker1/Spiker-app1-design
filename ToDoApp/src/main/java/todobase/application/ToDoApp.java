@@ -28,4 +28,6 @@ class LoadLists{
 
 class SaveLists{
     //save method to save all selected lists from ListManager's listOfLists to a given directory
+    //save method takes an array of strings as a parameter, which it would then parse to integers to determine
+    //which lists to save, unless the first integer is -1, in which it determines to save all lists
 }

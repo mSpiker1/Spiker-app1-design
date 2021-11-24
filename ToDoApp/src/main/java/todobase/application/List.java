@@ -3,7 +3,9 @@ package todobase.application;
 public class List {
     //initialize an observable list of item objects called "itemList"
 
-    //initialize an item called "currentItem"
+    //initialize a string called "listName"
+
+    //initialize an integer called "currentItem", -1 by default
 
     //method to get a specific item from the itemList
 
@@ -11,9 +13,15 @@ public class List {
 
     //method to remove an item from the itemList
 
+    //method to replace an item in the itemList with a new item
+
     //setCurrentItem method to match a given item object to an item within the itemList, sets to currentItem
+
+    //itemList setter
 
     //itemList getter
 
-    //itemList setter
+    //listName setter
+
+    //listName getter
 }

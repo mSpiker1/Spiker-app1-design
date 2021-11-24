@@ -8,7 +8,7 @@ import java.util.ResourceBundle;
 public class ItemMenuController implements Initializable {
     //initialize all fxml objects
 
-    //initialize method
+    //initialize method to run when the scene is launched
     public void initialize(URL location, ResourceBundle resources){
         //get the current list from ListManager
 

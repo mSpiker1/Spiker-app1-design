@@ -1,4 +1,12 @@
 package todobase.application;
 
 public class NewListController {
+    //initialize fxml objects
+
+    //when create list button is clicked
+        //grab the text from the text area as a string
+
+        //create a new List item and set the listName to the string
+
+        //add the list to ListManager's listOfLists
 }

@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
 public class ListMenuController implements Initializable {
     //initialize all fxml objects
 
-    //initialize method
+    //initialize method to run when the scene is launched
     public void initialize(URL location, ResourceBundle resources){
         //open directory with a File object to the directory containing the lists
 
