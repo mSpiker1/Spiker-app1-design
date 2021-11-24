@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todobase.application.ListMenuController">
+   <children>
+      <TableView layoutX="21.0" layoutY="100.0" prefHeight="200.0" prefWidth="559.0">
+        <columns>
+          <TableColumn prefWidth="51.0" text="List #" />
+            <TableColumn prefWidth="507.0" text="List Name" />
+        </columns>
+      </TableView>
+      <Button layoutX="511.0" layoutY="313.0" mnemonicParsing="false" text="Select List" />
+      <Label layoutX="144.0" layoutY="77.0" text="Highlight a list and click &quot;Select List&quot; to choose a list to edit" />
+      <Button layoutX="21.0" layoutY="313.0" mnemonicParsing="false" text="Create New List" />
+      <Button layoutX="254.0" layoutY="313.0" mnemonicParsing="false" text="Edit List Name" />
+      <Button layoutX="280.0" layoutY="352.0" mnemonicParsing="false" text="Save" />
+   </children>
+</AnchorPane>

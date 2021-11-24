@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todobase.application.NewItemController">
+   <children>
+      <Button layoutX="266.0" layoutY="264.0" mnemonicParsing="false" text="Save Item" />
+      <TextField layoutX="116.0" layoutY="155.0" prefHeight="25.0" prefWidth="369.0" promptText="Enter Item Description..." />
+      <DatePicker layoutX="195.0" layoutY="208.0" prefHeight="25.0" prefWidth="211.0" promptText="Click to set Item Due Date" />
+   </children>
+</AnchorPane>

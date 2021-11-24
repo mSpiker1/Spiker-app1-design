@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todobase.application.ItemMenuController">
+   <children>
+      <Button layoutX="522.0" layoutY="307.0" mnemonicParsing="false" text="Edit Item" />
+      <TableView layoutX="12.0" layoutY="100.0" prefHeight="200.0" prefWidth="577.0">
+        <columns>
+          <TableColumn prefWidth="392.0" text="Item Description" />
+          <TableColumn prefWidth="107.0" text="Due Date" />
+            <TableColumn prefWidth="77.0" text="Complete" />
+        </columns>
+      </TableView>
+      <Button layoutX="424.0" layoutY="307.0" mnemonicParsing="false" text="Remove Item" />
+      <Button layoutX="14.0" layoutY="307.0" mnemonicParsing="false" text="Add New Item" />
+      <SplitMenuButton layoutX="481.0" layoutY="68.0" mnemonicParsing="false" text="Show Only...">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Incomplete Items" />
+          <MenuItem mnemonicParsing="false" text="Complete Items" />
+            <MenuItem mnemonicParsing="false" text="All Items" />
+        </items>
+      </SplitMenuButton>
+      <Button layoutX="12.0" layoutY="68.0" mnemonicParsing="false" text="&lt; Back to List Selection" />
+   </children>
+</AnchorPane>

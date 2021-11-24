@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todobase.application.SaveListController">
+   <children>
+      <Button layoutX="146.0" layoutY="230.0" mnemonicParsing="false" text="Save All Lists" />
+      <Button layoutX="336.0" layoutY="230.0" mnemonicParsing="false" text="Save Specified Lists" />
+      <TextArea layoutX="146.0" layoutY="115.0" prefHeight="104.0" prefWidth="309.0" promptText="Enter list numbers..." />
+      <Label layoutX="154.0" layoutY="69.0" text="Type in the text area to specify list numbers you wish to" />
+      <Label layoutX="169.0" layoutY="89.0" text="specifically save, if you do not wish to save all list:" />
+   </children>
+</AnchorPane>
