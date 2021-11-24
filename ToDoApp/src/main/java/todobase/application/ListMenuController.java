@@ -1,9 +1,11 @@
+/*
+ *  UCF COP3330 Fall 2021 Application Assignment 1 Solution
+ *  Copyright 2021 Matthew Spiker
+ */
+
 package todobase.application;
 
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-
 import java.net.URL;
 import java.util.ResourceBundle;
 
